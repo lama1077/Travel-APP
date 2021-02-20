@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Travel app</title>
+    </head>
+    <body>
+        <h1>Travel app</h1>
+        <div class="input">
+            <input type="text" required placeholder="Enter the city" class="input_text" />
+            <br></br>
+            <input type="date" placeholder="Enter the Date" class="input_date" />
+            <br></br>
+            <input type="submit" value="Submit" class="submit" />
+        </div>
+        <div class="card">
+            <p style="color: rgb(122, 0, 0);">The Result</p>
+            <p class="name"></p>
+            <p class="coun_try"></p>
+            <p class="weather"></p>
+            <p class="countDown"></p>
+            <p class="language"></p>
+            <p class="Currency"></p>
+        </div>
+        <div id="flag"></div>
+        <br />
+        <idv id="cityimg"></idv>
+        <br />
+        <script>
+            // Check that service workers are supported
+            if ("serviceWorker" in navigator) {
+                window.addEventListener("load", () => {
+                    navigator.serviceWorker.register("/service-worker.js");
+                });
+            }
+        </script>
+    </body>
+</html>
