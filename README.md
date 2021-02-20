@@ -3,16 +3,16 @@
 - This project is a simple web app that includes a form where you enter the location you are traveling to and the date you are leaving. If the trip is within a week, you will get the current weather forecast.
 - The project also pulls some extra information about the user's destination's country e.g population, currency and primary language
 
-# How to run the project
+## How to run the project
 - Download the dependencies with: npm i or npm install
 - After the dependencies are downloaded type: npm run build-prod
 - After the build is complete run the app: npm start
 - The app will be running on localhost: 8780
 
-# Testing
+## Testing
 Testing is done with Jest. To run test, use the command:  npm run test
 
-# Api used
+## Api used
 - Geonames - This was used to get the longitude, latitude, country code and country name.
 - Weatherbit - This is used to get weather details using the longitude and latitude gotten from Geonames API.
 - Pixabay - This is used to get an image of the destination city.
