@@ -4,10 +4,10 @@
 - The project also pulls some extra information about the user's destination's country e.g population, currency and primary language
 
 ## How to run the project
-- Download the dependencies with: npm i or npm install
-- After the dependencies are downloaded type: npm run build-prod
-- After the build is complete run the app: npm start
-- The app will be running on localhost: 8780
+1- Download the dependencies with: npm i or npm install
+2- After the dependencies are downloaded type: npm run build-prod
+3- After the build is complete run the app: npm start
+4- The app will be running on localhost: 8780
 
 ## Testing
 Testing is done with Jest. To run test, use the command:  npm run test
