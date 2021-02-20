@@ -6,6 +6,7 @@
 ## How to run the project
 1. Download the dependencies
 npm install
+`<addr>`
 3. After the dependencies are downloaded type: npm run build-prod
 4. After the build is complete run the app: npm start
 5.  The app will be running on localhost: 8780
