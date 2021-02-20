@@ -4,7 +4,7 @@
 - The project also pulls some extra information about the user's destination's country e.g population, currency and primary language
 
 ## How to run the project
-1. Download the dependencies
+1. Download the dependencies with:
 `npm install`
 3. After the dependencies are downloaded type: `npm run build-prod`
 4. After the build is complete run the app: `npm start`
