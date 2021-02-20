@@ -5,11 +5,10 @@
 
 ## How to run the project
 1. Download the dependencies
-npm install with
-`<npm install>`
-3. After the dependencies are downloaded type: `<npm run build-prod>`
-4. After the build is complete run the app: `<npm start>`
-5.  The app will be running on localhost: `<8780>`
+`npm install`
+3. After the dependencies are downloaded type: `npm run build-prod`
+4. After the build is complete run the app: `npm start`
+5.  The app will be running on localhost: `8780`
 
 ## Testing
 Testing is done with Jest. To run test, use the command:  npm run test
